@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:padding="16dp"
+    >
+
+    <!-- Agregar un edit Text -->
+    <EditText
+        android:id="@+id/Et_campo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el Número 1"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/Et_campo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el Número 2"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_sumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Sumar"
+        android:backgroundTint="#08E29D"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_restar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Restar"
+        android:backgroundTint="#08E29D"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_divi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Dividir"
+        android:backgroundTint="#08E29D"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Multiplicar"
+        android:backgroundTint="#08E29D"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/Tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="0.0"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
